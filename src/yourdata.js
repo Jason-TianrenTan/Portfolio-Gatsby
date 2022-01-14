@@ -310,7 +310,21 @@ export default {
         {company: 'CertiK', location: 'New York City, USA', title: 'Frontend Development Internship', time: 'June 2019 - August 2019',
             content: ['Developed and deployed a Google Chrome plug-in for peer point testing in the CertiK Testnet using JavaScript and CSS. Reduced process time from several minutes to one second for internal users and developers to switch from external nodes to Testnet.',
                     'Restructured company webpage single handedly using React. Designed a responsive user interface and ensured search engine optimization. Deployed and launched website using Netlify and Gatsby, improved website response time by 10%.',
-                'Performed several development unit-testing with Jest integrated on Ubuntu 16.04. Maintained company website code base, individually detected and solved several potential vulnerabilities.']}
+                'Performed several development unit-testing with Jest integrated on Ubuntu 16.04. Maintained company website code base, individually detected and solved several potential vulnerabilities.']},
+        {company: 'Alibaba Group', location: 'Beijing, China', title: 'Software Development Internship', time: 'September 2020 - November 2020',
+            content: ['Realized an intuitive design for a data statistics website using Vue, HTML/CSS, conducted several statistical analyzations and produced over 20 informative statistical charts with echarts for multiple classification analysis.',
+            'Enhanced an asynchronous call-back framework connecting to backend API using axios, improved webpage loading time by 200% through adapting lazy loading. ',
+            'Implemented Koa and Node.js for backend design, ensured a comprehensive RESTful API, establishing a structured MVP design.']}
+    ],
+    project: [
+        {title: 'MBTA Manager', subtitle:'Xamarin, C#', time: 'July 2018 - August 2018',
+            content: ['Independently developed in only two weeks a cross platform mobile application using Xamarin, providing travelling information, alert reminder services and schedule optimizations in Boston. Rated N0 1 project in a Harvard class of 20+ competitive peers from leading non-US universities.', 'Established a concise and presentational code-base using MVVM design pattern, decreased startup time by 2 seconds.']},
+        {title: 'Coupon Exchange Platform', subtitle: 'Android, Java, Retrofit, OkHttp, RxAndroid', time: 'June 2017 - November 2017',
+            content: ['Implemented reactive programming with RxAndroid to enhance asynchronous performance', 'Reduced page rendering time by 30% by implementing Disk LRU Cache',
+                'Established asynchronous and type-safe HTTP requests using Retrofit2 to interact with backend API']},
+        {title: 'APAP-Processor', subtitle: 'C++, OpenCV, Eigen', time: 'September 2017 - February 2018',
+            content: ['Performed highly precise feature points marking with SIFT and RANSAC, demonstrating 90% accuracy on public testing data up to 1500x2000 pixels large.',
+                'Introduced super pixel segmentation in image preprocessing, increased image stitching validity by 2.8%. ']}
     ]
   },
 
