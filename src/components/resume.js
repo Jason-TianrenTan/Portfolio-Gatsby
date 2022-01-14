@@ -31,13 +31,15 @@ const Resume = () => {
                 <h1>Summary</h1>
               </div>
               <hr />
-              <ul>
-                {data.resume.summary.map((statement, index) => (
-                  <li key={index}>
-                    <p>{statement}</p>
-                  </li>
-                ))}
-              </ul>
+              <div className="summary-wrapper">
+                <ul>
+                  {data.resume.summary.map((statement, index) => (
+                    <li key={index}>
+                      <p>{statement}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
 
             <div className="section" id="education">
@@ -49,10 +51,10 @@ const Resume = () => {
                 {data.resume.education.map((education, index) => (
                   <article className="degree-container">
                     <div className="header">
-                      <h3 class="degree">{education.title}</h3>
-                      <h3 class="time">{education.time}</h3>
+                      <h3 class="degree left">{education.title}</h3>
+                      <h3 class="right">{education.time}</h3>
                     </div>
-                    <h4 class="school">
+                    <h4 class="school left">
                       {education.school + ", " + education.location}
                     </h4>
 
@@ -76,10 +78,22 @@ const Resume = () => {
                 {data.resume.experience.map((experience, index) => (
                   <div className="experience">
                     <div className="header">
-                      <h3 class="company">{experience.company}</h3>
-                      <h3 class="location">{experience.location}</h3>
+                      <h3 class="company left">{experience.company}</h3>
+                      <h3 class="right">{experience.location}</h3>
                     </div>
-                    <div className="titles"></div>
+                    <div className="titles">
+                      <h4 class="left">{experience.title}</h4>
+                      <h4 class="right">{experience.time}</h4>
+                    </div>
+                    <div className="content">
+                      <ul>
+                        {experience.content.map((statement, index) => (
+                          <li key={index}>
+                            <p>{statement}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 ))}
               </div>

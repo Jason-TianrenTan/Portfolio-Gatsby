@@ -72,7 +72,7 @@
 
   p {
     font-size: 1.3rem;
-    padding: 0.5em 0 0.5em 0;
+    line-height: 1.6;
   }
 
   .section {
@@ -80,28 +80,36 @@
     margin-bottom: 5vh;
   }
 
+  .left {
+    justify-content: flex-start;
+  }
+
+  .right {
+    margin-left: auto;
+    letter-spacing: normal;
+  }
+
   #about {
     li {
       margin-bottom: 1vh;
+    }
+
+    p {
+      padding: 0.5em 0 0.5em 0;
     }
   }
 
   .education-wrapper {
     .degree-container {
       margin-top: 5vh;
-      padding: 0 2em 0 2em;
+      padding-left: 40px;
     }
     .header {
       width: 100%;
       display: flex;
       flex-direction: row;
       .degree {
-        justify-content: flex-start;
         font-weight: 800;
-      }
-      .time {
-        margin-left: auto;
-        letter-spacing: normal;
       }
     }
 
@@ -125,18 +133,21 @@
 
   .experience-wrapper {
     .experience {
+      padding-left: 40px;
       .header {
         width: 100%;
         display: flex;
         flex-direction: row;
         .company {
-          justify-content: flex-start;
           font-weight: 800;
         }
-        .location {
-          margin-left: auto;
-          letter-spacing: normal;
-        }
+      }
+      .titles {
+        width: 100%;
+        display: flex;
+      }
+      h4 {
+          margin-bottom: 0;
       }
     }
   }

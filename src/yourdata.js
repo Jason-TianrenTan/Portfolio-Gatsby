@@ -307,9 +307,10 @@ export default {
             courses: ['Discrete Mathematics', 'Data Structure/Algorithms', 'Pattern Recognition', 'Software Architecture', 'Object-Orienterd Programming']}
     ],
     experience: [
-        {company: 'CertiK', location: 'New York City, USA', title: 'Frontend Developer', subtitle: 'Frontend Internship', time: 'June 2019 - August 2019',
-            content: ['Developed a Google Chrome plug-in for peer point testing in the CertiK Testnet using JavaScript and CSS',
-                    'Single handedly developed and restructured company webpage using React and Gatsby']}
+        {company: 'CertiK', location: 'New York City, USA', title: 'Frontend Development Internship', time: 'June 2019 - August 2019',
+            content: ['Developed and deployed a Google Chrome plug-in for peer point testing in the CertiK Testnet using JavaScript and CSS. Reduced process time from several minutes to one second for internal users and developers to switch from external nodes to Testnet.',
+                    'Restructured company webpage single handedly using React. Designed a responsive user interface and ensured search engine optimization. Deployed and launched website using Netlify and Gatsby, improved website response time by 10%.',
+                'Performed several development unit-testing with Jest integrated on Ubuntu 16.04. Maintained company website code base, individually detected and solved several potential vulnerabilities.']}
     ]
   },
 
