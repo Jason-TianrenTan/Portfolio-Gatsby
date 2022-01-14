@@ -1,26 +1,35 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "jason-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "My React Portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jason Tan",
   "dependencies": {
     "gatsby": "^4.5.2",
-    "gatsby-plugin-gatsby-cloud": "^4.5.1",
-    "gatsby-plugin-image": "^2.5.1",
+    "gatsby-image": "^3.11.0",
     "gatsby-plugin-manifest": "^4.5.1",
     "gatsby-plugin-offline": "^5.5.1",
     "gatsby-plugin-react-helmet": "^5.5.0",
+    "gatsby-plugin-sass": "^5.5.0",
     "gatsby-plugin-sharp": "^4.5.1",
+    "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-source-filesystem": "^4.5.1",
     "gatsby-transformer-sharp": "^4.5.0",
-    "prop-types": "^15.8.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-countup": "^6.1.0",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-reveal": "^1.2.2",
+    "react-scroll": "^1.8.4",
+    "react-syntax-highlighter": "^15.4.5",
+    "react-timeless": "^0.3.1",
+    "react-vertical-timeline-component": "^3.5.2",
+    "react-visibility-sensor": "^5.1.1"
   },
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "sass": "^1.48.0"
   },
   "keywords": [
     "gatsby"
@@ -30,7 +39,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "gatsby develop",
+    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"

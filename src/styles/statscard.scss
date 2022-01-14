@@ -1,0 +1,30 @@
+.stats-container {
+    width: 70vw;
+    margin-top: 10vh;
+    display: table;
+    padding-bottom: 100px;
+    .stats-wrapper {
+
+        margin-top: 10vh;
+        align-items: center;
+        display: table-cell;
+
+        .stats-card {
+            width: 100%;
+            display: block;
+            align-items: center;
+            text-align: center;
+            .content {
+                p {
+                    font-size: 22px;
+                    color: #797979;
+                }
+
+                .countup-wrapper {
+                    font-size: 36px;
+                }
+            }
+
+        }
+    }
+}

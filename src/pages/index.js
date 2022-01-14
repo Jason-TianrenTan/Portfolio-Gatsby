@@ -1,30 +1,25 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import React from "react"
 
 import Layout from "../components/layout"
-import Seo from "../components/seo"
+import SEO from "../components/seo"
+// Components
+import Work from "../components/work"
+import About from "../components/about"
+import Skills from "../components/skills"
+import Promotion from "../components/promotion"
+import Footer from "../components/footer"
+import TimeLine from "../components/timeline"
+import Resume from "../components/resume"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
+    <SEO title="Jason Tan's Portfolio" />
+    <About></About>
+    <Skills></Skills>
+    <Work></Work>
+    <TimeLine></TimeLine>
+    <Resume></Resume>
+    <Footer></Footer>
   </Layout>
 )
 
