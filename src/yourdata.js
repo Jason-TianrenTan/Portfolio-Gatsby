@@ -21,6 +21,7 @@ import avatar from "./images/avatar.jpg"
 import logoImg from "./images/logo.png"
 import logoSmallImg from "./images/logo-small.png"
 import resumeImg from "./images/about/resume.png"
+import downloadImg from "./images/about/download.png"
 
 //About Icons
 import aboutCodingIcon from "./images/about/coding.png"
@@ -131,6 +132,7 @@ export default {
 
   // About Secton --------------
   resumeLogo: resumeImg,
+  downloadLogo: downloadImg,
   codingLogo: aboutCodingIcon,
   meLogo: meIcon,
   aboutParaOne: "Hi there! I'm Tianren Tan, you can call me Jason.",

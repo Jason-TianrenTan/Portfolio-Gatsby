@@ -11,7 +11,15 @@ const Resume = () => {
           <Fade bottom cascade>
             <div className="headers-wrapper">
               <div className="link-container">
-                <h1>Resume</h1>
+                <div className="resume-title-container">
+                  <h1>Resume</h1>
+                  <a
+                    href={data.resume.url}
+                    download
+                  >
+                    <img className="download-logo" src={data.downloadLogo}/>
+                  </a>
+                </div>
                 {data.resume.sections.map(section => (
                   <button onClick={() => scrollTo(section.scroll)}>
                     {section.name}
