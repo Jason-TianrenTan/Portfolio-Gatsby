@@ -1,20 +1,29 @@
 .navbar-wrapper {
-  width: 80vw;
-  margin-top: 8vh;
+  width:100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  background-color: white;
+  border: solid 1px;
+  border-color: lightgray;
+
   .name {
     font-weight: 600;
   }
+  .logo-wrapper {
+      padding: 0 2vw;
+      .navbar-logo {
+          height: 6.5rem;
+      }
+  }
   .links-wrapper {
+      padding-right: 2vw;
     button {
       text-decoration: none;
       padding: 10px;
-      font-family: "Open Sans";
+      font-family: "Montserrat";
       transition: all 0.2s ease-in-out;
-      font-size: 18px;
-      color: white;
+      font-size: 19px;
+      color: black;
       outline: none;
       background-color: transparent;
       border: 0px;
@@ -27,4 +36,11 @@
       color: black;
     }
   }
+}
+
+#navbar {
+    box-shadow:  2px 4px 10px black;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }

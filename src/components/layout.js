@@ -6,13 +6,11 @@
  */
 
 import React from "react"
-import NavHeaderContainer from "./navheadercontainer"
 import "../styles/mains.scss"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <NavHeaderContainer />
       <main>{children}</main>
     </>
   )
