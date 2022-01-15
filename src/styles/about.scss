@@ -15,6 +15,7 @@
   }
   .content {
     width: 50%;
+    margin-bottom: 10px;
     @include media(">=phone", "<lgphone") {
       width: 100%;
     }
@@ -37,6 +38,9 @@
       @include media(">=tablet", "<desktop") {
         text-align: center;
       }
+    }
+    .resume-btn {
+        margin-left: 0;
     }
   }
   button {

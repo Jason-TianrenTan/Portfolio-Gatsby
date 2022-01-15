@@ -44,6 +44,9 @@ import githubIcon from "./images/contacts/github.svg"
 import linkedinIcon from "./images/contacts/linkedin.png"
 import gmailIcon from "./images/contacts/gmail.png"
 
+//Resume File
+import resumeFile from "./files/TianrenTan_Resume.pdf"
+
 export default {
   //Stats
   stats: [
@@ -289,6 +292,7 @@ export default {
 
   //Resume
   resume: {
+    url: resumeFile,
     sections: [
       { name: "Education", scroll: "#education" },
       { name: "Experience", scroll: "#experience" },

@@ -28,8 +28,7 @@ const About = () => {
             </Fade>
             <p>
               {data.aboutParaOne}
-              <br></br>I am <span className="age-span">{age}</span>{" "}
-              years old.
+              <br></br>I am <span className="age-span">{age}</span> years old.
               <br></br>
               <br></br>
               {data.aboutParaTwo}
@@ -37,12 +36,11 @@ const About = () => {
               <br></br>
               {data.aboutParaThree}
             </p>
-            <p>
-              For more information, check out my{" "}
-              <button onClick={() => scrollTo("#resume")}>
-                Resume <img className="smallLogo" src={data.resumeLogo} />
-              </button>
-            </p>
+            <Fade bottom>
+              <a href={data.resume.url} download className="primary-btn resume-btn">
+                Resume
+              </a>
+            </Fade>
           </div>
           <div className="image-wrapper">
             <img className="avatar" src={data.aboutImage} alt="about"></img>
