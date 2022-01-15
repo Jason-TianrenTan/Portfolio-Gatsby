@@ -79,11 +79,11 @@ const Resume = () => {
                   <div className="experience">
                     <div className="header">
                       <h3 className="company left">{experience.company}</h3>
-                      <h3 className="right">{experience.location}</h3>
+                      <h3 className="right">{experience.time}</h3>
                     </div>
                     <div className="titles">
                       <h4 className="left">{experience.title}</h4>
-                      <h4 className="right">{experience.time}</h4>
+                      <h4 className="right">{experience.location}</h4>
                     </div>
                     <div className="content">
                       <ul>
@@ -108,21 +108,46 @@ const Resume = () => {
                 {data.resume.project.map((project, index) => (
                   <div className="project">
                     <div className="header">
-                        <div className="left title-wrapper">
-                            <h3 className="project-title">{project.title}</h3>
-                            <div className="vr"/>
-                            <h3 className="project-subtitle">{project.subtitle}</h3>
-                        </div>
-                        <h3 className="right">{project.time}</h3>
+                      <div className="left title-wrapper">
+                        <h3 className="project-title">{project.title}</h3>
+                        <div className="vr" />
+                        <h3 className="project-subtitle">{project.subtitle}</h3>
+                      </div>
+                      <h3 className="right">{project.time}</h3>
                     </div>
                     <div className="content">
-                        <ul>
-                            {project.content.map((statement, index) => (
-                                <li key={index}>
-                                    <p>{statement}</p>
-                                </li>
-                            ))}
-                        </ul>
+                      <ul>
+                        {project.content.map((statement, index) => (
+                          <li key={index}>
+                            <p>{statement}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="section" id="recognitions">
+              <div className="title">
+                <h1>RECOGNITION & LEADERSHIP</h1>
+              </div>
+              <hr />
+              <div className="recognitions-wrapper">
+                {data.resume.recognition.map((recognition, index) => (
+                  <div className="recognition">
+                    <div className="header">
+                      <h3 className="left recognition-title">
+                        {recognition.title}
+                      </h3>
+                      <h3 className="right">{recognition.time}</h3>
+                    </div>
+                    <div className="titles">
+                      <h4 className="left recognition-subtitle">
+                        {recognition.subtitle}
+                      </h4>
+                      <h4 className="right">{recognition.location}</h4>
                     </div>
                   </div>
                 ))}

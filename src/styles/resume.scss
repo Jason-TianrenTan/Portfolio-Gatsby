@@ -177,6 +177,27 @@
       }
     }
   }
+
+  .recognitions-wrapper {
+      .recognition {
+          padding-left: 40px;
+          .header {
+              width: 100%;
+              display: flex;
+              flex-direction: row;
+              .recognition-title {
+                  font-weight: 800;
+              }
+          }
+          .titles {
+            width: 100%;
+            display: flex;
+            .recognition-subtitle {
+                font-style: italic;
+            }
+          }
+      }
+  }
 }
 hr {
   border-top: 1px solid black;

@@ -292,7 +292,7 @@ export default {
       { name: "Education", scroll: "#education" },
       { name: "Experience", scroll: "#experience" },
       { name: "Projects", scroll: "#projects" },
-      { name: "Leaderships/Recognitions", scroll: "#recognitions" },
+      { name: "Recognition & Leadership", scroll: "#recognitions" },
     ],
     summary: [
       "Master of Software Engineering graduate with advanced software engineering training and project experiences",
@@ -325,6 +325,12 @@ export default {
         {title: 'APAP-Processor', subtitle: 'C++, OpenCV, Eigen', time: 'September 2017 - February 2018',
             content: ['Performed highly precise feature points marking with SIFT and RANSAC, demonstrating 90% accuracy on public testing data up to 1500x2000 pixels large.',
                 'Introduced super pixel segmentation in image preprocessing, increased image stitching validity by 2.8%. ']}
+    ],
+    recognition: [
+        {title: 'Vice President of Technology', subtitle: 'Wuhan University Microsoft Student Club', time: 'September 2018 - June 2019', location: 'Hubei, China'},
+        {title: 'Best Mobile Application Prize', subtitle: 'The 13th Citi Cup Financial Innovation and Application Competition', time: 'June 2017 - November 2017', location: 'Sichuan, China'},
+        {title: 'Honorable Mention', subtitle: 'US Mathematical Contest in Modeling', time: 'February 2018', location: 'Hubei, China'},
+        {title: 'Harvard University Summer Program', subtitle: 'CSCI S-73 Developing Cross-Platform Mobile Apps with Xamarin', time: 'July 2018 - August 2018', location: 'Massachusetts, USA'}
     ]
   },
 
