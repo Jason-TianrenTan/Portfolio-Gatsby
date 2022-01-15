@@ -42,6 +42,7 @@ import codeCover from "./images/projects/carbon.png"
 //Contact Icons
 import githubIcon from "./images/contacts/github.svg"
 import linkedinIcon from "./images/contacts/linkedin.png"
+import gmailIcon from "./images/contacts/gmail.png"
 
 export default {
   //Stats
@@ -336,6 +337,7 @@ export default {
 
   contactSubHeading: "Tell me more about yourself.",
   social: [
+    { img: gmailIcon, url: "mailto:jason.tianrent@gmail.com" },
     { img: githubIcon, url: "https://github.com/Jason-TianrenTan" },
     { img: linkedinIcon, url: "https://www.linkedin.com/in/jason-tianrentan/" },
   ],
