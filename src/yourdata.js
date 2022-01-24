@@ -52,9 +52,9 @@ export default {
   //Stats
   stats: [
         {name: "C++", count: 1050},
-        {name: "Java", count: 229934},
-        {name: "JavaScript", count: 155441},
-        {name: "Commits", count: 283}
+        {name: "Java", count: 29934},
+        {name: "JavaScript", count: 5441},
+        {name: "Commits", count: 313}
   ],
   
 
