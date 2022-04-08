@@ -12,10 +12,11 @@ import TimeLine from "../components/timeline"
 import Resume from "../components/resume"
 import Navbar from '../components/navbar';
 import Header from '../components/header';
+import thumbnail from '../yourdata.js';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Jason Tan's Portfolio" />
+    <SEO title="Jason Tan's Portfolio" thumbnail={thumbnail} />
     <Navbar />
     <Header/>
     <About></About>

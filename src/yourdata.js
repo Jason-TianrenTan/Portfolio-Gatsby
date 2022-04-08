@@ -48,6 +48,9 @@ import gmailIcon from "./images/contacts/gmail.png"
 //Resume File
 import resumeFile from "./files/TianrenTan_Resume.pdf"
 
+//Thumbnail
+import thumbnailImg from "./images/thumbnail.png"
+
 export default {
   //Stats
   stats: [
