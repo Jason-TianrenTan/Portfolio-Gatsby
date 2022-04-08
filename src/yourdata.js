@@ -49,7 +49,7 @@ import gmailIcon from "./images/contacts/gmail.png"
 import resumeFile from "./files/TianrenTan_Resume.pdf"
 
 //Thumbnail
-import thumbnailImg from "./images/thumbnail.png"
+import thumbnail from "./images/thumbnail.png"
 
 export default {
   //Stats
@@ -59,6 +59,9 @@ export default {
         {name: "JavaScript", count: 5441},
         {name: "Commits", count: 313}
   ],
+
+  //Thumbnail
+  thumbnailImg: thumbnail,
   
 
   //Server url
